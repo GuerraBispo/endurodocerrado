@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mu-single-footer">
-							<h3 class="mu-footer-logo">Logo</h3>
+							<img class="mu-footer-logo" src="{{ asset('assets/images/LOGOENDURO140X80PX.png')}}"  class="navbar-brand mu-logo"  />
 							<p>O evento é realizado na cidade de Carolina MA, um lugar cheio de encantos naturais. E possui trilhas sensacionais para você que busca aventura e divesão. </p>
 							<div class="mu-social-media">
 								<a href="#"><i class="fa fa-facebook"></i></a>
@@ -46,7 +46,7 @@
 							  <li class="media">
 							    <span class="fa fa-envelope"></span>
 							    <div class="media-body">
-							     <p>endurocerrado@contato.com</p>
+							     <p>contato@endurodocerrado.com.br</p>
 							    </div>
 							  </li>
 							</ul>

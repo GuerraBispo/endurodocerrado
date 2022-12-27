@@ -44,7 +44,7 @@
 		<div class="container">
 			<nav class="navbar navbar-expand-lg navbar-light mu-navbar">
 				<!-- Text based logo -->
-				<a class="navbar-brand mu-logo" href="index.html"><span><img src="{{ asset('assets/images/logo-enduro.png')}}" style="height: 50px; width: 50px;" /></span></a>
+			 <img src="{{ asset('assets/images/LOGOENDURO140X80PX.png')}}" style="width: 100px; heigth: 80px"  class="navbar-brand mu-logo"  />
 				<!-- image based logo -->
 			   	<!-- <a class="navbar-brand mu-logo" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,14 +53,16 @@
 
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto mu-navbar-nav">
+    
 			      <li class="nav-item"><a href="{{ route('site.home') }}">Home</a></li>
-			      <li class="nav-item"><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
+            <li class="nav-item"><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
 			      <li class="nav-item"><a href="{{ route('site.hospedagem') }}">Hospedagem</a></li>
 			      <li class="nav-item"><a href="{{ route('site.parceiros') }}">Patrocinadores</a></li>
-			      <li class="nav-item"><a href="{{ route('site.loja') }}">Loja</a></li>
-               <li class="nav-item"><a href="{{ route('site.videos') }}">Videos</a></li>
-               <li class="nav-item"><a href="{{ route('site.formulario') }}">Inscrições</a></li>
-             </ul>
+			     <!-- <li class="nav-item"><a href="{{ route('site.loja') }}">Loja</a></li> -->
+           <!-- <li class="nav-item"><a href="{{ route('site.videos') }}">Videos</a></li> -->
+            <li class="nav-item"><a href="{{ route('site.formulario') }}">Inscrições</a></li>
+        
+          </ul>
 			  </div>
 			</nav>
 		</div>

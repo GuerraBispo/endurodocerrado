@@ -12,7 +12,8 @@ Route::get('/hospedagens', 'HospedagensController@hospedagem')->name('site.hospe
 
 Route::get('/produtos', 'LojaController@loja')->name('site.loja');
 
-Route::get('/inscricoes', 'InscricoesController@inscricao')->name('site.formulario');
+Route::get('/inscricoes', 'InscricoeController@create')->name('site.formulario');
+Route::post('/inscricoes', 'InscricoeController@store')->name('site.formulario');
 
 Route::get('/midia', 'MidiaController@midia')->name('site.videos');
 

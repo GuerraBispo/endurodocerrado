@@ -125,12 +125,58 @@
 								<h2>Venha para o enduro do cerrado!</h2>
 								<p>Viva aventuras inesqueciveis, em um dos lugares mais bonitos do Brasil.</p>
 							</div>
-							<a href="contact.html" class="mu-primary-btn mu-quote-btn">Inscreva-se <i class="fa fa-long-arrow-right"></i></a>
+							<a href="{{ route('site.formulario') }}" class="mu-primary-btn mu-quote-btn">Inscreva-se <i class="fa fa-long-arrow-right"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<!-- Start Clients -->
+		<div id="mu-clients">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-clients-area">
+
+							<!-- Start Clients brand logo -->
+							<div class="mu-clients-slider">
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.png')}}" alt="Brand Logo">
+								</div>
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/2.png')}}" alt="Brand Logo">
+								</div>
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/3.png')}}" alt="Brand Logo">
+								</div>
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/4.png')}}" alt="Brand Logo">
+								</div>
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/5.png')}}" alt="Brand Logo">
+								</div>
+
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/6.png')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/7.png')}}" alt="Brand Logo">
+								</div>
+							</div>
+							<!-- End Clients brand logo -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Clients -->
 		
 		<!-- Start Services -->
 		<section id="mu-service">

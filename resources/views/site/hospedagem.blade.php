@@ -44,7 +44,7 @@
 							<div class="row">
 								<div class="col-md-12">
 									<div class="mu-title">
-										<h2>Hotelaria</h2>
+										<h2>Hospedagens</h2>
 										<p>Conforto, qualidade e econômia.</p>
 									</div>
 								</div>
