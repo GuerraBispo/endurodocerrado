@@ -8,9 +8,9 @@
 							<img class="mu-footer-logo" src="{{ asset('assets/images/LOGOENDURO140X80PX.png')}}"  class="navbar-brand mu-logo"  />
 							<p>O evento é realizado na cidade de Carolina MA, um lugar cheio de encantos naturais. E possui trilhas sensacionais para você que busca aventura e divesão. </p>
 							<div class="mu-social-media">
-								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.facebook.com/EndurodoCerradoOficial/" target="_blank"><i class="fa fa-facebook"></i></a>
 								<a class="mu-twitter" href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a>
-								<a class="mu-pinterest" href="#"><i class="fa fa-instagram"></i></a>
+								<a class="mu-pinterest" href="https://www.instagram.com/endurodocerrado_oficial/" target="_blank"><i class="fa fa-instagram"></i></a>
 							</div>
 						</div>
 					</div>
@@ -19,10 +19,11 @@
 						<div class="mu-single-footer">
 							<h3>Todos os Links</h3>
 							<ul class="mu-useful-links">
-								<li><a href="#">Home</a></li>
-								<li><a href="about-us.html">Sobre Nós</a></li>
-								<li><a href="portfolio.html">Hospedagens</a></li>
-								<li><a href="contact.html">Inscrições</a></li>
+								<li><a href="{{ route('site.home') }}">Home</a></li>
+								<li><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
+								<li><a href="{{ route('site.hospedagem') }}">Hospedagens</a></li>
+								<li><a href="{{ route('site.parceiros') }}">Parceiros</a></li>
+								<li><a href="{{ route('site.formulario') }}">Inscrições</a></li>
 							</ul>
 						</div>
 					</div>
@@ -33,14 +34,13 @@
 							  <li class="media">
 							    <span class="fa fa-home"></span>
 							    <div class="media-body">
-							    	<p>Rua 12, Carolina, MA, 65980-000</p>
+							    	<p>Av. Frederico Martins Azevedo, Carolina - MA, 65980-000</p>
 							    </div>
 							  </li>
 							  <li class="media">
 							    <span class="fa fa-phone"></span>
 							    <div class="media-body">
 							       <p>(99) 991879574</p>
-							     	<p>(99) 984520009</p>
 							    </div>
 							  </li>
 							  <li class="media">
@@ -99,14 +99,14 @@
 	    new Circlebar({
         element : "#circle-1",
         type : "progress",
-	      maxValue:  "90"
+	      maxValue:  "80"
 	    });
 		
 		// Second circle
 	    new Circlebar({
         element : "#circle-2",
         type : "progress",
-	      maxValue:  "84"
+	      maxValue:  "50"
 	    });
 
 	    // Third circle
@@ -120,7 +120,7 @@
 	    new Circlebar({
         element : "#circle-4",
         type : "progress",
-	      maxValue:  "74"
+	      maxValue:  "90"
 	    });
 
 	</script>
