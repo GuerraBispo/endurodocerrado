@@ -4,7 +4,7 @@
 		<div class="mu-slide">
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets//images/slide/1.png')}}" alt="slider img">
+				<img src="{{ asset('assets//images/slide/1.png')}}" alt="slider img" style="width: 100%">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">
@@ -23,7 +23,7 @@
 
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets//images/slide/2.png') }}" alt="slider img">
+				<img src="{{ asset('assets//images/slide/2.png') }}" alt="slider img" style="width: 100%">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">
@@ -42,7 +42,7 @@
 
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets/images/slide/3.png')}}" alt="slider img">
+				<img src="{{ asset('assets/images/slide/3.png')}}" alt="slider img" style="width: 100%">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">

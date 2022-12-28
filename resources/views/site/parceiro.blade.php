@@ -45,7 +45,7 @@
 												<div class="col-md-6">
 													<div class="mu-single-team">
 														<div class="mu-single-team-img">
-															<img src="assets/images/hotel/1.png" alt="img">
+															<img src="assets/images/hotel/1.png" alt="img" style="height: 100%">
 														</div>
 														<div class="mu-single-team-content">
 															<h3>Hotel Hilton</h3>

@@ -140,7 +140,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	/*color: ;*/
 }
 
 address {
@@ -1174,7 +1174,7 @@ a:focus,
 	padding: 50px 0 40px;
 }
 
-.mu-standard-pricing .mu-single-pricebox {;
+.mu-standard-pricing .mu-single-pricebox {
 	padding: 5px 0 40px;
 }
 
@@ -1684,6 +1684,7 @@ a:focus,
 
 #mu-skills {
 	background-image: url(assets/images/sobrenos/quadriciculo.png);
+	
 	background-position: center center;
 	background-size: cover;
 	display: inline;
@@ -1691,6 +1692,7 @@ a:focus,
 	padding: 100px 0;
 	position: relative;
 	width: 100%;
+	/*background:  url(assets/video/video-enduro.mp4);*/
 }
 
 #mu-skills:before {

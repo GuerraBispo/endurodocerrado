@@ -43,12 +43,15 @@
 								<div class="col-md-12">
 									<div class="mu-title">
 										<h2>Sobre Nós</h2>
-										<p align="justify">ENDURO DO CERRADO OFF ROAD (Motos, Quadriciculos, UTV e Carros 4x4), já é considerado um dos maiores eventos esportivo do sul do Maranhão. O evento de caráter esportivo que une a adrenalina, emoção, lazer, passeio turísticos e ecológico sem competitividade e premiação.
-											É na trilha que desafiamos o nosso corpo para que atinja  objetivos extraordinarios. Porém, é nela também que conseguimos nos conectar de alma com a natureza e todo conhecimento extraordinário que ela carrega e nos oferece.</p>
+										<p align="justify"><b>ENDURO DO CERRADO OFF ROAD</b> (Motos, Quadriciculos, UTV e Carros 4x4), já é considerado um dos maiores eventos esportivo do sul do Maranhão. O evento de caráter esportivo que une a adrenalina, emoção, lazer, passeio turísticos e ecológico sem competitividade e premiação.
+											É na trilha que desafiamos o nosso corpo para que atinja  objetivos extraordinarios. Porém, é nela também que conseguimos nos conectar de alma com a natureza e todo conhecimento extraordinário que ela carrega e nos oferece. <br>
+											Entende-se que através do esporte é possível promover a integração social, resgatar a cidadania das comunidades locais,
+													a ampliação da divulgação, distribuição de renda na geração de empregos temporários durante a realização do evento <b>(lanchonetes, hotéis, restaurante, postos de gasolina, borracharias, autopeças especializadas em motos, carros e o comercio em geral)</b>.
+											</p>
 									</div>
 								</div>
 							</div>
-							<!-- Start Feature Content -->
+							<!-- 
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
@@ -60,15 +63,14 @@
 										<ul>
 											<li>
 												<h3></h3>
-												<p>Entende-se que através do esporte é possível promover a integração social, resgatar a cidadania das comunidades locais,
-													a ampliação da divulgação, <br> distribuição de renda na geração de empregos temporários durante a realização do evento (lanchonetes, hotéis, restaurante, postos de gasolina, borracharias, autopeças especializadas em motos, carros e o comercio em geral).
+												<p>).
 												</p>
 											</li>
 										</ul>
 									</div>
 								</div>
 							</div>
-							<!-- End Feature Content -->
+							 -->
 						</div>
 					</div>
 				</div>
