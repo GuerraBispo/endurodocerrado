@@ -16,5 +16,6 @@ Route::get('/inscricoes', 'InscricoeController@create')->name('site.formulario')
 Route::post('/inscricoes', 'InscricoeController@store')->name('site.formulario');
 
 Route::get('/midia', 'MidiaController@midia')->name('site.videos');
+Route::get('/galeria', 'FotosController@fotos')->name('site.imagens');
 
 //Route::fallback();

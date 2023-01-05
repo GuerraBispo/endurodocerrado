@@ -4,7 +4,7 @@
 		<div class="mu-slide">
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets//images/slide/1.png')}}" alt="slider img" style="width: 100%">
+				<img src="{{ asset('assets//images/slide/1.webp')}}" alt="Enduro do Cerrado">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">
@@ -23,7 +23,7 @@
 
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets//images/slide/2.png') }}" alt="slider img" style="width: 100%">
+				<img src="{{ asset('assets//images/slide/2.webp') }}" alt="Enduro do Cerrado">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">
@@ -42,7 +42,7 @@
 
 			<!-- Start single slide  -->
 			<div class="mu-single-slide">
-				<img src="{{ asset('assets/images/slide/3.png')}}" alt="slider img" style="width: 100%">
+				<img src="{{ asset('assets/images/slide/3.webp')}}" alt="Enduro do Cerrado">
 				<div class="mu-single-slide-content-area">
 					<div class="container">
 						<div class="row">
@@ -85,7 +85,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="{{ asset('assets/images/home/home.png')}}" alt="img" style="border-radius: 10px;">
+										<img class="" src="{{ asset('assets/images/home/home.webp')}}" alt="Enduro do Cerrado" style="border-radius: 10px;">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -133,44 +133,44 @@
 		</div>
 
 		<!-- Start Clients -->
+		<!-- Start Clients -->
 		<div id="mu-clients">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-clients-area">
-
-							<!-- Start Clients brand logo -->
 							<div class="mu-clients-slider">
-
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/5.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/6.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
+
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/7.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
-							<!-- End Clients brand logo -->
-
 						</div>
 					</div>
 				</div>
@@ -204,7 +204,7 @@
 													<div class="mu-single-service-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Alimentação</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
+														<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p> -->
 													</div>
 												</div>
 											</div>
@@ -215,7 +215,6 @@
 													<div class="mu-single-service-icon"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Social</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
 													</div>
 												</div>
 											</div>
@@ -226,7 +225,6 @@
 													<div class="mu-single-service-icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Midia</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
 													</div>
 												</div>
 											</div>
@@ -237,7 +235,6 @@
 													<div class="mu-single-service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Segurança</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
 													</div>
 												</div>
 											</div>
@@ -248,7 +245,6 @@
 													<div class="mu-single-service-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Festas</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
 													</div>
 												</div>
 											</div>
@@ -259,7 +255,6 @@
 													<div class="mu-single-service-icon"><i class="fa fa-cog" aria-hidden="true"></i></div>
 													<div class="mu-single-service-content">
 														<h3>Atrativos</h3>
-														<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor commodo .</p>
 													</div>
 												</div>
 											</div>
@@ -310,47 +305,44 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-clients-area">
-
-							<!-- Start Clients brand logo -->
 							<div class="mu-clients-slider">
-
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/5.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/6.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
+
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/7.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
-							<!-- End Clients brand logo -->
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Clients -->
 	</main>
-	<!-- End main content -->
    @include('site.layouts.footer')	
 			
 			

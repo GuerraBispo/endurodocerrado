@@ -31,7 +31,7 @@
 								<div class="col-md-12">
 									<div class="mu-title">
 										<h2>Patrocinadores</h2>
-										<p>Do Enduro do Cerrado.</p>
+										<p>Do Enduro do Cerrado edição 2023.</p>
 									</div>
 								</div>
 							</div>
@@ -45,16 +45,13 @@
 												<div class="col-md-6">
 													<div class="mu-single-team">
 														<div class="mu-single-team-img">
-															<img src="assets/images/hotel/1.png" alt="img" style="height: 100%">
+															<img src="assets/images/patrocinadores/1.webp" alt="img">
 														</div>
-														<div class="mu-single-team-content">
-															<h3>Hotel Hilton</h3>
-															<span>Parceiro</span>
-															<p>Avenida BRASILIA, Carolina, CEP 65980-000, Brasil.</p>
+														<div align="center" class="mu-single-team-content">
 															<ul class="mu-team-social">
-																<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-																<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-																<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+																<li><a href="https://www.facebook.com/pages/Grauna-Motos-e-Motores/220730471610913" target="_blank"><i class="fa fa-facebook"></i></a></li>
+																<li><a href="https://wa.me/5599984050445" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/graunamotos_carolinama/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 															</ul>
 														</div>
 													</div>
@@ -65,16 +62,43 @@
 												<div class="col-md-6">
 													<div class="mu-single-team">
 														<div class="mu-single-team-img">
-															<img src="assets/images/hotel/3.png" alt="img">
+															<img src="assets/images/patrocinadores/2.webp" alt="img">
 														</div>
-														<div class="mu-single-team-content">
-															<h3>New Center Hotel</h3>
-															<span>Parceiro</span>
-															<p>Av. Getúlio Vargas, 1445 - Centro, Carolina - MA, 65980-000.</p>
+														<div align="center" class="mu-single-team-content">
 															<ul class="mu-team-social">
-																<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+																<li><a href="https://www.facebook.com/cabral.forros.9" target="_blank"><i class="fa fa-facebook"></i></a></li>
 																<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
 																<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/3.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://www.facebook.com/groups/800076840703974" target="_blank"><i class="fa fa-facebook"></i></a></li>
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/saladoempreendedorcarolina/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/4.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://www.facebook.com/profile.php?id=100080684388753" target="_blank"><i class="fa fa-facebook"></i></a></li>
+																<li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/prefcarolina/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 															</ul>
 														</div>
 													</div>

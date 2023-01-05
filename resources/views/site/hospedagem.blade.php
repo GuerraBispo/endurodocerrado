@@ -75,25 +75,7 @@
 												</div>
 												<!-- End single item -->
 												
-												<!-- start single item -->
-												<div class="col-md-6">
-													<div class="mu-single-team">
-														<div class="mu-single-team-img">
-															<img src="assets/images/hotel/3.png" alt="img">
-														</div>
-														<div class="mu-single-team-content">
-															<h3>New Center Hotel</h3>
-															<span>Parceiro</span>
-															<p>Av. Getúlio Vargas, 1445 - Centro, Carolina - MA, 65980-000.</p>
-															<ul class="mu-team-social">
-																<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-																<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-																<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-															</ul>
-														</div>
-													</div>
-												</div>
-												<!-- End single item -->
+												
 												
 												<!-- End single item -->
 											</div>
@@ -109,52 +91,51 @@
 		</section>
 		<!-- End Portfolio -->
 
-		
-		<!-- Start Clients -->
+<!-- Start Clients -->
 		<div id="mu-clients">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-clients-area">
-
-							<!-- Start Clients brand logo -->
 							<div class="mu-clients-slider">
-
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/1.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/2.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/3.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/4.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/5.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/6.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
+
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/7.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
-							<!-- End Clients brand logo -->
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Clients -->
+	
+
 	</main>
 	
 	<!-- End main content -->	

@@ -43,34 +43,14 @@
 								<div class="col-md-12">
 									<div class="mu-title">
 										<h2>Sobre Nós</h2>
-										<p align="justify"><b>ENDURO DO CERRADO OFF ROAD</b> (Motos, Quadriciculos, UTV e Carros 4x4), já é considerado um dos maiores eventos esportivo do sul do Maranhão. O evento de caráter esportivo que une a adrenalina, emoção, lazer, passeio turísticos e ecológico sem competitividade e premiação.
-											É na trilha que desafiamos o nosso corpo para que atinja  objetivos extraordinarios. Porém, é nela também que conseguimos nos conectar de alma com a natureza e todo conhecimento extraordinário que ela carrega e nos oferece. <br>
-											Entende-se que através do esporte é possível promover a integração social, resgatar a cidadania das comunidades locais,
-													a ampliação da divulgação, distribuição de renda na geração de empregos temporários durante a realização do evento <b>(lanchonetes, hotéis, restaurante, postos de gasolina, borracharias, autopeças especializadas em motos, carros e o comercio em geral)</b>.
-											</p>
+										<p align="justify">ENDURO DO CERRADO OFF ROAD (Motos, Quadriciculos, UTV e Carros 4x4), já é considerado um dos maiores eventos esportivo do sul do Maranhão. O evento de caráter esportivo que une a adrenalina, emoção, lazer, passeio turísticos e ecológico sem competitividade e premiação.
+											É na trilha que desafiamos o nosso corpo para que atinja  objetivos extraordinarios. Porém, é nela também que conseguimos nos conectar de alma com a natureza e todo conhecimento extraordinário que ela carrega e nos oferece.</p>
+										<p align="justify">Entende-se que através do esporte é possível promover a integração social, resgatar a cidadania das comunidades locais,
+											a ampliação da divulgação, <br> distribuição de renda na geração de empregos temporários durante a realização do evento (lanchonetes, hotéis, restaurante, postos de gasolina, borracharias, autopeças especializadas em motos, carros e o comercio em geral).
+										</p>
 									</div>
 								</div>
 							</div>
-							<!-- 
-							<div class="row">
-								<div class="col-md-6">
-									<div class="mu-about-left">
-										<img class="" src="{{ asset('assets/images/sobrenos/historia.png')}}" alt="img" style="border-radius: 10px ;">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="mu-about-right">
-										<ul>
-											<li>
-												<h3></h3>
-												<p>).
-												</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							 -->
 						</div>
 					</div>
 				</div>
@@ -171,44 +151,44 @@
 		</section>
 		<!-- End Skills -->
       	<!-- Start Clients -->
+		<!-- Start Clients -->
 		<div id="mu-clients">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-clients-area">
-
-							<!-- Start Clients brand logo -->
 							<div class="mu-clients-slider">
-
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/1.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/2.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/3.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/4.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/5.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/6.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
+
 								<div class="mu-clients-single">
-									<img src="assets/images/patrocinadores/7.png" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
-							<!-- End Clients brand logo -->
-
 						</div>
 					</div>
 				</div>

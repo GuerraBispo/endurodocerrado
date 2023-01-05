@@ -140,7 +140,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	/*color: ;*/
+	
 }
 
 address {
@@ -589,7 +589,7 @@ a:focus,
 /*--------------------*/
 
 #mu-call-to-action {
-	background-image: url(assets/images/chamada/chamada3.png);
+	background-image: url(assets/images/chamada/chamada.webp);
 	float: left;
 	position: relative;
 	width: 100%;
@@ -721,7 +721,7 @@ a:focus,
 }
 
 .mu-video-left {
-	background-image: url(assets/images/video/video.png);
+	background-image: url(assets/images/video/video.webp);
 	display: inline;
 	float: left;
 	text-align: center;
@@ -1618,7 +1618,7 @@ a:focus,
 
 
 #mu-page-header {
-	background-image: url(assets/images/sobrenos/sobre-nos.png);
+	background-image: url(assets/images/sobrenos/sobre-nos.webp);
 	background-position: center center;
 	background-size: cover;
 	display: inline;
@@ -1683,8 +1683,7 @@ a:focus,
 }
 
 #mu-skills {
-	background-image: url(assets/images/sobrenos/quadriciculo.png);
-	
+	background-image: url(assets/images/sobrenos/grauna.webp);
 	background-position: center center;
 	background-size: cover;
 	display: inline;
@@ -1692,7 +1691,6 @@ a:focus,
 	padding: 100px 0;
 	position: relative;
 	width: 100%;
-	/*background:  url(assets/video/video-enduro.mp4);*/
 }
 
 #mu-skills:before {
@@ -3699,6 +3697,11 @@ a:focus,
 		padding-top: 24%;
 	}
 	
+	.titulo{
+		margin-top: 100px;
+	}
+	
 	
 }
+
 

@@ -44,7 +44,9 @@
 								<div class="col-md-12">
 									<div class="mu-title">
 										<h2>Preencha o formulário</h2>
-										<p>Contamos com a sua participação para abrilhantar o nosso evento. </p>
+										<p>Pague sua Inscrição através do QRCODE abaixo.</p>
+										<img src="{{ asset('assets/images/pix/pix.webp') }}" style="margin-top: -20px" alt="Enduro do Cerrado"/><br>
+									    <a class="mu-primary-btn" href="https://contate.me/endurodocerrado" target="_blank">Enviar Comprovante <span class="fa fa-long-arrow-right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -100,7 +102,7 @@
 														<div class="form-group">
 															<span class="fa fa-file mu-contact-icon"></span>
 															<input type="text" class="form-control" placeholder="CNH"
-																 name="cnh" required>
+																 name="cnh">
 														</div>
 													</div>
 
@@ -140,9 +142,13 @@
 
 													<div class="col-md-6">
 														<div class="form-group">
-															<span class="fa fa-automobile mu-contact-icon"></span>
-															<input type="text" class="form-control"
-																placeholder="Veiculo"  name="veiculo" required>
+														<select name="veiculo" class="form-control">
+														<option>Escolha o tipo de veículo</option>
+														<option value="Moto">Moto - R$ 80 </option>
+														<option value="Quaddriciculo">Quadriciculo - R$ 100 </option>
+														<option value="UPV">UPV - R$ 100</option>
+														<option value="Carro4x4">Carro 4x4 - R$ 150</option>
+														</select>
 														</div>
 													</div>
 
@@ -150,7 +156,7 @@
 														<div class="form-group">
 															<span class="fa fa-wpforms mu-contact-icon"></span>
 															<input type="text" class="form-control" placeholder="Placa"
-																 name="placa" required>
+																 name="placa">
 														</div>
 													</div>
 
@@ -178,7 +184,7 @@
 														<div class="form-group">
 															<span class="fa fa-user mu-contact-icon"></span>
 															<input type="text" class="form-control"
-																placeholder="Nome"  name="nomeAcompanhante" required>
+																placeholder="Nome"  name="nomeAcompanhante">
 														</div>
 													</div>
 
@@ -186,7 +192,7 @@
 														<div class="form-group">
 															<span class="fa fa-whatsapp mu-contact-icon"></span>
 															<input type="text" class="form-control"
-																placeholder="Telefone"  name="telefoneAcompanhante" required>
+																placeholder="Telefone"  name="telefoneAcompanhante">
 														</div>
 													</div>
 
@@ -194,7 +200,7 @@
 														<div class="form-group">
 															<span class="fa fa-file mu-contact-icon"></span>
 															<input type="text" class="form-control"
-																placeholder="Identidade"  name="identidadeAcompanhante" required>
+																placeholder="Identidade"  name="identidadeAcompanhante">
 														</div>
 													</div>
 
@@ -211,7 +217,7 @@
 														<div class="form-group">
 															<span class="fa fa-envelope mu-contact-icon"></span>
 															<input type="text" class="form-control" placeholder="Email"
-																 name="emailAcompanhante" required>
+																 name="emailAcompanhante">
 														</div>
 													</div>
 
@@ -219,7 +225,7 @@
 														<div class="form-group">
 															<span class="fa fa-group mu-contact-icon"></span>
 															<input type="text" class="form-control" placeholder="Parentesco"
-																 name="parentesco" required>
+																 name="parentesco">
 														</div>
 													</div>
 
@@ -249,39 +255,38 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="mu-clients-area">
-
-							<!-- Start Clients brand logo -->
 							<div class="mu-clients-slider">
-
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
+								</div>
+								<div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/5.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
 								</div>
 
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/6.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
 								</div>
+
 								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/7.png')}}" alt="Brand Logo">
+									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
-							<!-- End Clients brand logo -->
-
 						</div>
 					</div>
 				</div>
@@ -291,8 +296,7 @@
 
 		<!-- Google map -->
 		<div id="mu-google-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d615.1308317165367!2d-47.46298446912058!3d-7.337278255780603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d82bf1d4e8915f%3A0x1e1c8faf61b8d38e!2sNosso%20Lanche%20Carolina!5e1!3m2!1spt-BR!2sbr!4v1672146862268!5m2!1spt-BR!2sbr" width="850" height="400" allowfullscreen></iframe>
-	</main>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.345353757415!2d-47.47468087967!3d-7.334848118359813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d82ab0bf8e75e5%3A0x7acceed5ca2a0f9!2sPrefeitura%20de%20Carolina!5e1!3m2!1spt-BR!2sbr!4v1672944866164!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	</main>
 		</div>
 
 

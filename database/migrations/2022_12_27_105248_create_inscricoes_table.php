@@ -11,24 +11,25 @@ class CreateInscricoesTable extends Migration
     {
         Schema::create('inscricoes', function (Blueprint $table) {
             $table->id();
-            $table->string('nome', 50);
-            $table->string('sangue',10);
-            $table->string('identidade', 15);
-            $table->string('cpf', 15);
-            $table->string('cnh', 20);
-            $table->string('endereco', 80);
-            $table->string('cidade', 50);
-            $table->string('telefone',15);
-            $table->string('email', 30);
-            $table->string('veiculo', 30);
-            $table->string('placa', 10);
-            $table->string('observacao', 30);
-            $table->string('nomeAcompanhante', 50);
-            $table->string('telefoneAcompanhante', 15);
-            $table->string('identidadeAcompanhante', 15);
-            $table->string('cpfAcompanhante', 15);
-            $table->string('emailAcompanhante', 80);
-            $table->string('parentesco', 30);
+            $table->string('nome', 50)->nullable();
+            $table->string('sangue',10)->nullable();
+            $table->string('identidade', 15)->nullable();
+            $table->string('cpf', 15)->nullable();
+            $table->string('cnh', 20)->nullable();
+            $table->string('endereco', 80)->nullable();
+            $table->string('cidade', 50)->nullable();
+            $table->string('telefone',15)->nullable();
+            $table->string('email', 30)->nullable();
+            $table->string('veiculo', 30)->nullable();
+            $table->string('placa', 10)->nullable();
+            $table->string('observacao', 30)->nullable();
+            $table->string('nomeAcompanhante', 50)->nullable();
+            $table->string('telefoneAcompanhante', 15)->nullable();
+            $table->string('identidadeAcompanhante', 15)->nullable();
+            $table->string('cpfAcompanhante', 15)->nullable();
+            $table->string('emailAcompanhante', 80)->nullable();
+            $table->string('parentesco', 30)->nullable();
+            $table->string('pagamento', 30)->nullable();
             $table->timestamps();
         });
     }

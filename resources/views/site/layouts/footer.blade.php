@@ -5,10 +5,10 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="mu-single-footer">
-							<img class="mu-footer-logo" src="{{ asset('assets/images/LOGOENDURO140X80PX.png')}}"  class="navbar-brand mu-logo"  />
+							<img class="mu-footer-logo" src="{{ asset('assets/images/LOGOENDURO140X80PX.webp')}}"  class="navbar-brand mu-logo" alt="Enduro do Cerrado" />
 							<p>O evento é realizado na cidade de Carolina MA, um lugar cheio de encantos naturais. E possui trilhas sensacionais para você que busca aventura e divesão. </p>
 							<div class="mu-social-media">
-								<a href="https://www.facebook.com/EndurodoCerradoOficial/" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.facebook.com/EndurodoCerradoOficial" target="_blank"><i class="fa fa-facebook"></i></a>
 								<a class="mu-twitter" href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a>
 								<a class="mu-pinterest" href="https://www.instagram.com/endurodocerrado_oficial/" target="_blank"><i class="fa fa-instagram"></i></a>
 							</div>
@@ -22,11 +22,13 @@
 								<li><a href="{{ route('site.home') }}">Home</a></li>
 								<li><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
 								<li><a href="{{ route('site.hospedagem') }}">Hospedagens</a></li>
-								<li><a href="{{ route('site.parceiros') }}">Parceiros</a></li>
+								<li><a href="{{ route('site.parceiros') }}">Patrocinadores</a></li>
+								<li><a href="{{ route('site.imagens') }}">Galeria</a></li>
 								<li><a href="{{ route('site.formulario') }}">Inscrições</a></li>
 							</ul>
 						</div>
 					</div>
+
 					<div class="col-md-4">
 						<div class="mu-single-footer">
 							<h3>Contato</h3>
@@ -34,7 +36,7 @@
 							  <li class="media">
 							    <span class="fa fa-home"></span>
 							    <div class="media-body">
-							    	<p>Av. Frederico Martins Azevedo, Carolina - MA, 65980-000</p>
+							    	<p>Praça Alípio Carvalho, 50 - Centro, Carolina - MA, 65980-000.</p>
 							    </div>
 							  </li>
 							  <li class="media">
@@ -73,11 +75,15 @@
 	
 	<!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	<!-- Slick slider -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>	<!-- Slick slider -->
+						
+
     <script type="text/javascript" src="{{ asset('assets/js/slick.min.js') }}"></script>
+
     <!-- Progress Bar -->
     <script src="https://unpkg.com/circlebars@1.0.3/dist/circle.js"></script>
     <!-- Filterable Gallery js -->
@@ -89,9 +95,12 @@
     <!-- Ajax contact form  -->
     <script type="text/javascript" src="{{asset('assets/js/app.js')}}"></script>
     
-	
+
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
     <!-- Custom js -->
 	<script type="text/javascript" src="{{ asset('assets/js/custom.js')}}"></script>
+
+	
 
 	<!-- About us Skills Circle progress  -->
 	<script>
@@ -99,14 +108,14 @@
 	    new Circlebar({
         element : "#circle-1",
         type : "progress",
-	      maxValue:  "80"
+	      maxValue:  "90"
 	    });
 		
 		// Second circle
 	    new Circlebar({
         element : "#circle-2",
         type : "progress",
-	      maxValue:  "50"
+	      maxValue:  "84"
 	    });
 
 	    // Third circle
@@ -120,7 +129,7 @@
 	    new Circlebar({
         element : "#circle-4",
         type : "progress",
-	      maxValue:  "90"
+	      maxValue:  "74"
 	    });
 
 	</script>
