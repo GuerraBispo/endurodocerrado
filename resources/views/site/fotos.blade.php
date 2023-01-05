@@ -30,54 +30,47 @@
                             </div>
                         </div>
                         <section class="gallery">
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/1.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/10.webp')}}"
                                 alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/2.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/3.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/4.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/5.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/6.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/7.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/8.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/9.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/10.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/11.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/12.jpeg')}}"
-                                alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/13.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/13.webp')}}"
                                 alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/14.jpeg')}}"
-                                alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/15.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/15.webp')}}"
                                 alt="Enduro do Cerrado" />
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/16.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/16.webp')}}"
                                 alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/17.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/17.webp')}}"
                                 alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/18.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/18.webp')}}"
                                 alt="Enduro do Cerrado" />  
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/19.jpeg')}}"
-                                alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/21.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/21.webp')}}"
                                 alt="Enduro do Cerrado" />  
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/22.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/22.webp')}}"
                                 alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/28.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/28.webp')}}"
                                 alt="Enduro do Cerrado" />  
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/24.jpeg')}}"
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/25.webp')}}"
+                                alt="Enduro do Cerrado" />  
+
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/29.webp')}}"
                                 alt="Enduro do Cerrado" /> 
-                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/25.jpeg')}}"
-                                alt="Enduro do Cerrado" />                                      
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/32.webp')}}"
+                                alt="Enduro do Cerrado" /> 
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/33.webp')}}"
+                                alt="Enduro do Cerrado" />
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/34.webp')}}"
+                                alt="Enduro do Cerrado" /> 
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/38.webp')}}"
+                                alt="Enduro do Cerrado" />
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/39.webp')}}"
+                                alt="Enduro do Cerrado" /> 
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/40.webp')}}"
+                                alt="Enduro do Cerrado" />    
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/41.webp')}}"
+                                alt="Enduro do Cerrado" /> 
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/42.webp')}}"
+                                alt="Enduro do Cerrado" />  
+                            <img class="gallery-img" src="{{asset('assets/images/fotosEnduro/37.webp')}}"
+                                alt="Enduro do Cerrado" />                                                              
                         </section>
                     </div>
                 </div>

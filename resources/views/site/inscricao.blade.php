@@ -33,6 +33,117 @@
 
 	<!-- Start main content -->
 	<main>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mu-title">
+					<h2></h2>
+					<p></p>
+					<h2>Antes de realizar sua inscrição</h2>
+					<p>Leia atenciosamente as Informações abaixo.</p>
+				</div>
+			</div>
+		</div>
+
+       	<section id="mu-portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+								<!-- Start Team Content -->
+								<div class="row">
+									<div class="col-md-12">
+										<div class="mu-team-content">
+											<div class="row">
+												<!-- start single item -->
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-content">
+															<h3>Categoria Moto - R$ 80</h3>
+															<span>Informações</span>
+															<p>1 kit ( Pilotos inscritos receberão o número de identificação para a moto, 1 pulseira que lhe dará direito a socorro, a almoço, e ao final e o troféu de participação).</p>
+															<ul class="mu-team-social">
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><b>Em caso dúvida fale conosco.</b></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<!-- End single item -->
+
+												<!-- start single item -->
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-content">
+															<h3>Categoria Quadríciculo - R$ 100</h3>
+															<span>Informações</span>
+															<p>1 kit ( Pilotos inscritos receberão o número de identificação para o quadríciculo, 2 pulseira que lhe dará direito a socorro, a almoço, e ao final e o troféu de participação).</p>
+															<ul class="mu-team-social">
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><b>Em caso dúvida fale conosco.</b></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<!-- End single item -->
+
+												<!-- start single item -->
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-content">
+															<h3>Categoria UTV - R$ 100</h3>
+															<span>Informações</span>
+															<p>1 kit (O Piloto inscrito receberá um número de identificação da UTV, Regulamento do Evento, 2 pulseira que lhe dará direito a socorro, a almoço, e ao final e o troféu de participação).</p>
+															<ul class="mu-team-social">
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><b>Em caso dúvida fale conosco.</b></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<!-- End single item -->
+
+												<!-- start single item -->
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-content">
+															<h3>Categoria Carro 4X4 - R$ 150</h3>
+															<span>Informações</span>
+															<p>1 kit ( O Piloto inscrito receberá um número de identificação  do carro, Regulamento do Evento, 4 pulseira que lhe dará direito a socorro, a almoço, e ao final e o troféu de participação).</p>
+															<ul class="mu-team-social">
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><b>Em caso dúvida fale conosco.</b></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<!-- End single item -->
+
+												<!-- start single item -->
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-content">
+															<h3>Acompanhante</h3>
+															<span>Informações</span>
+															<p>Caso tenho o desejo de trazer consigo um acompanhante será combrado uma taxa de 30 reais.</p>
+															<ul class="mu-team-social">
+																<li><a href="https://contate.me/endurodocerrado" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><b>Em caso dúvida fale conosco.</b></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<!-- End single item -->
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
 		<!-- Start Contact -->
 		<section id="mu-contact">
 			<div class="container">
@@ -248,6 +359,7 @@
 			</div>
 		</section>
 		<!-- End Contact -->
+		
 
 		<!-- Start Clients -->
 		<div id="mu-clients">
