@@ -121,7 +121,7 @@
 												<div class="col-md-6">
 													<div class="mu-single-team">
 														<div class="mu-single-team-content">
-															<h3>Acompanhante  - R$ 30</h3>
+															<h3>Acompanhante</h3>
 															<span>Informações</span>
 															<p>Caso tenho o desejo de trazer consigo um acompanhante será combrado uma taxa de 30 reais.</p>
 															<ul class="mu-team-social">
@@ -141,7 +141,6 @@
 				</div>
 			</div>
 		</section>
-
 
 
 		<!-- Start Contact -->
