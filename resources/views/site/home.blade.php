@@ -81,11 +81,13 @@
 									</div>
 								</div>
 							</div>
+							
+									
 							<!-- Start Feature Content -->
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<video width="520" height="295" controls>
+										<video width="100%" height="295" style="margin-left: -40" controls>
 											<source src="{{ asset('assets/video/video.mp4') }}" type="video/mp4">
 										</video>
 									</div>
