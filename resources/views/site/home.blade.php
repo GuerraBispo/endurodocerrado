@@ -85,7 +85,9 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="{{ asset('assets/images/home/home.webp')}}" alt="Enduro do Cerrado" style="border-radius: 10px;">
+										<video width="520" height="295" controls>
+											<source src="{{ asset('assets/video/video.mp4') }}" type="video/mp4">
+										</video>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -131,53 +133,9 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- Start Clients -->
-		<!-- Start Clients -->
-		<div id="mu-clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-clients-area">
-							<div class="mu-clients-slider">
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Clients -->
-		
+		<!-- Patrocinadores -->
+		@include('site.patrocinadores')
+		<!-- End Patrocinadores -->
 		<!-- Start Services -->
 		<section id="mu-service">
 			<div class="container">
@@ -281,7 +239,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="mu-video-right">
-						<p>Confira na pratica o que estamos falando. Enduro do cerrado em seu estado puro!</p>
+						<p>Confira na prática o que estamos falando. Enduro do cerrado em seu estado puro!</p>
 					</div>
 				</div>
 			</div>
@@ -290,58 +248,18 @@
 			<div class="mu-video-popup">
 				<div class="mu-video-iframe-area">
 					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/A9U8QbAZK2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video width="520" height="295" controls>
+							<source src="{{ asset('assets/video/trilha.mp4') }}" type="video/mp4">
+						</video>				
 				</div>
 			</div>
 			<!-- End Video Popup -->
 
 		</div>
 		<!-- End Video -->
-
-
-		<!-- Start Clients -->
-		<div id="mu-clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-clients-area">
-							<div class="mu-clients-slider">
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<!-- Patrocinadores -->
+		@include('site.patrocinadores')
+		<!-- End Patrocinadores -->
 	</main>
    @include('site.layouts.footer')	
 			

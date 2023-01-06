@@ -150,51 +150,10 @@
 			</div>
 		</section>
 		<!-- End Skills -->
-      	<!-- Start Clients -->
-		<!-- Start Clients -->
-		<div id="mu-clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-clients-area">
-							<div class="mu-clients-slider">
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Clients -->
+      
+		<!-- Patrocinadores -->
+		@include('site.patrocinadores')
+		<!-- End Patrocinadores -->
 
    </main>
 

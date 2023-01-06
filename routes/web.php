@@ -18,4 +18,6 @@ Route::post('/inscricoes', 'InscricoeController@store')->name('site.formulario')
 Route::get('/midia', 'MidiaController@midia')->name('site.videos');
 Route::get('/galeria', 'FotosController@fotos')->name('site.imagens');
 
+Route::get('/patrocinadores', 'PatrocinadoresController@patrocinio')->name('site.patrocinio');
+
 //Route::fallback();

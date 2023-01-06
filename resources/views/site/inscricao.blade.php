@@ -121,7 +121,7 @@
 												<div class="col-md-6">
 													<div class="mu-single-team">
 														<div class="mu-single-team-content">
-															<h3>Acompanhante</h3>
+															<h3>Acompanhante  - R$ 30</h3>
 															<span>Informações</span>
 															<p>Caso tenho o desejo de trazer consigo um acompanhante será combrado uma taxa de 30 reais.</p>
 															<ul class="mu-team-social">
@@ -319,8 +319,7 @@
 														<div class="form-group">
 															<span class="fa fa-folder-open-o mu-contact-icon"></span>
 															<input type="text" class="form-control"
-																placeholder="CPF"  name="cpfAcompanhante"
-																required>
+																placeholder="CPF"  name="cpfAcompanhante">
 														</div>
 													</div>
 
@@ -360,51 +359,8 @@
 		</section>
 		<!-- End Contact -->
 		
+        @include('site.patrocinadores')
 
-		<!-- Start Clients -->
-		<div id="mu-clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-clients-area">
-							<div class="mu-clients-slider">
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/1.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/2.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/3.webp')}}" alt="Brand Logo">
-								</div>
-
-								<div class="mu-clients-single">
-									<img src="{{ asset('assets/images/patrocinadores/4.webp')}}" alt="Brand Logo">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Clients -->
 
 		<!-- Google map -->
 		<div id="mu-google-map">
