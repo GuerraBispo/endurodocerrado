@@ -29,9 +29,7 @@
 			</div>
 		</div>
 	</div>
-<!-- End Breadcrumb -->
 
-	<!-- Start main content -->
 	<main>
 		<div class="row">
 			<div class="col-md-12">
