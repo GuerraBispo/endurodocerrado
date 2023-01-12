@@ -8,6 +8,8 @@ Route::get('/sobre-nos', 'SobreNosController@sobre')->name('site.sobrenos');
 
 Route::get('/parceiros', 'ParceirosController@parceiro')->name('site.parceiros');
 
+Route::get('/regulamento', 'RegulamentoController@diretivas')->name('site.regulamento');
+
 Route::get('/hospedagens', 'HospedagensController@hospedagem')->name('site.hospedagem');
 
 Route::get('/produtos', 'LojaController@loja')->name('site.loja');
