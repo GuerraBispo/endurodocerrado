@@ -330,11 +330,7 @@
                                             <button type="submit" class="mu-send-msg-btn"><span>Enviar</span>
                                             </button>
                                         </form>
-                                    @if(session('mensagem'))
-    <div class="alert alert-success">
-        <p>{{session('mensagem')}}</p>
-    </div>
-@endif
+                                   
                                 
 
                                     </div>
