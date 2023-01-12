@@ -43,8 +43,14 @@
                                 <div class="mu-clients-single">
 									<img src="{{ asset('assets/images/patrocinadores/7.webp')}}" alt="Brand Logo">
 								</div>
-                                <div class="mu-clients-single">
+								 <div class="mu-clients-single">
 									<img src="{{ asset('assets/images/patrocinadores/8.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/9.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/10.webp')}}" alt="Brand Logo">
 								</div>
 							</div>
 						</div>

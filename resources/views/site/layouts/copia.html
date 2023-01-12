@@ -1,60 +1,58 @@
 @include('site.layouts.header')
 
 <!-- Start Page Header area -->
-	<div id="mu-page-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="mu-page-header-area">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="mu-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-page-header-area">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- End Page Header area -->
 
 <!-- Start Breadcrumb -->
-	<div id="mu-breadcrumb">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<nav aria-label="breadcrumb" role="navigation">
-					  <ol class="breadcrumb mu-breadcrumb">
-					    <li class="breadcrumb-item"><a href="{{route('site.home')}}">Home</a></li>
-					    <li class="breadcrumb-item active" aria-current="page">Inscrições</li>
-					  </ol>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="mu-breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav aria-label="breadcrumb" role="navigation">
+                    <ol class="breadcrumb mu-breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{route('site.home')}}">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Inscrições</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<main>
-		
+<main>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mu-title">
+                <h2></h2>
+                <p></p>
+                <h2>Antes de realizar sua inscrição</h2>
+                <p>Leia atenciosamente as Informações abaixo.</p>
+            </div>
+        </div>
+    </div>
 
-			<section id="mu-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-about-area">
-							<div class="row">
-                            <div class="col-md-12">
-                                <div class="mu-title">
-                                    <h2>Preencha o formulário</h2>
-                                    <p>Pague sua Inscrição através do QRCODE abaixo.</p>
-                                    <img src="{{ asset('assets/images/pix/pix.webp') }}" style="margin-top: -20px"
-                                        alt="Enduro do Cerrado" /><br>
-                                    <a class="mu-primary-btn" href="https://contate.me/endurodocerrado"
-                                        target="_blank">Enviar Comprovante <span
-                                            class="fa fa-long-arrow-right"></span></a>
-                                </div>
-                            </div>
-                        </div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="mu-about-left">
-										<div class="col-md-12">
+    <section id="mu-portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Start Team Content -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mu-team-content">
+                                <div class="row">
+                                    <!-- start single item -->
+                                    <div class="col-md-6">
                                         <div class="mu-single-team">
                                             <div class="mu-single-team-content">
                                                 <h3>Categoria Moto - R$ 80</h3>
@@ -73,7 +71,7 @@
                                     <!-- End single item -->
 
                                     <!-- start single item -->
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="mu-single-team">
                                             <div class="mu-single-team-content">
                                                 <h3>Categoria Quadríciculo - R$ 100</h3>
@@ -92,7 +90,7 @@
                                     <!-- End single item -->
 
                                     <!-- start single item -->
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="mu-single-team">
                                             <div class="mu-single-team-content">
                                                 <h3>Categoria UTV - R$ 100</h3>
@@ -111,7 +109,7 @@
                                     <!-- End single item -->
 
                                     <!-- start single item -->
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="mu-single-team">
                                             <div class="mu-single-team-content">
                                                 <h3>Categoria Carro 4X4 - R$ 150</h3>
@@ -130,7 +128,7 @@
                                     <!-- End single item -->
 
                                     <!-- start single item -->
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="mu-single-team">
                                             <div class="mu-single-team-content">
                                                 <h3>Acompanhante</h3>
@@ -145,15 +143,44 @@
                                             </div>
                                         </div>
                                     </div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="mu-about-right">
-                           
+                                    <!-- End single item -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Start Contact -->
+    <section id="mu-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mu-contact-area">
+                        <!-- Title -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mu-title">
+                                    <h2>Preencha o formulário</h2>
+                                    <p>Pague sua Inscrição através do QRCODE abaixo.</p>
+                                    <img src="{{ asset('assets/images/pix/pix.webp') }}" style="margin-top: -20px"
+                                        alt="Enduro do Cerrado" /><br>
+                                    <a class="mu-primary-btn" href="https://contate.me/endurodocerrado"
+                                        target="_blank">Enviar Comprovante <span
+                                            class="fa fa-long-arrow-right"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start Contact Content -->
+                        <div class="mu-contact-content">
                             <div class="row">
 
                                 <div class="col-md-12">
-                                    
+                                    <div class="mu-contact-form-area">
                                         <div id="form-messages"></div>
 
                                         <form method="post" action="{{ route('site.formulario') }}"
@@ -330,38 +357,31 @@
                                             <button type="submit" class="mu-send-msg-btn"><span>Enviar</span>
                                             </button>
                                         </form>
-                                    @if(session('mensagem'))
-    <div class="alert alert-success">
-        <p>{{session('mensagem')}}</p>
-    </div>
-@endif
-                                
-
                                     </div>
-									</div>	
-									</div>
-								</div>
-							</div>
-							<!-- End Feature Content -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                                </div>
 
-      
+                            </div>
+                        </div>
+                        <!-- End Contact Content -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
 
-
-	
-		
-        @include('site.patrocinadores')
+    @include('site.patrocinadores')
 
 
-		<!-- Google map -->
-		<div id="mu-google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.345353757415!2d-47.47468087967!3d-7.334848118359813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d82ab0bf8e75e5%3A0x7acceed5ca2a0f9!2sPrefeitura%20de%20Carolina!5e1!3m2!1spt-BR!2sbr!4v1672944866164!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	</main>
-		</div>
-    </main>
+    <!-- Google map -->
+    <div id="mu-google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.345353757415!2d-47.47468087967!3d-7.334848118359813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92d82ab0bf8e75e5%3A0x7acceed5ca2a0f9!2sPrefeitura%20de%20Carolina!5e1!3m2!1spt-BR!2sbr!4v1672944866164!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+</main>
+</div>
+
 
 
 @include('site.layouts.footer')

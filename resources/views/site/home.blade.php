@@ -87,7 +87,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<video width="100%" height="295" style="margin-left: -40" controls>
+										<video width="100%" height="295"  controls>
 											<source src="{{ asset('assets/video/video.mp4') }}" type="video/mp4">
 										</video>
 									</div>

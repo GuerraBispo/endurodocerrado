@@ -158,6 +158,34 @@
 														</div>
 													</div>
 												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/9.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://wa.me/5563981495906" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/adrenalina_off_road/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/10.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://api.whatsapp.com/send?phone=5599991604929" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/hotelaracas/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
 												
 
 
