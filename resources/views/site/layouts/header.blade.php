@@ -64,7 +64,7 @@
     
 			      <li class="nav-item"><a href="{{ route('site.home') }}">Home</a></li>
             <li class="nav-item"><a href="{{ route('site.sobrenos') }}">Sobre Nós</a></li>
-             <li class="nav-item"><a href="{{ route('site.regulamento') }}">Regulamento</a></li>
+            <li class="nav-item"><a href="{{ route('site.regulamento') }}">Regulamento</a></li>
 			      <li class="nav-item"><a href="{{ route('site.hospedagem') }}">Hospedagem</a></li>
 			      <li class="nav-item"><a href="{{ route('site.parceiros') }}">Patrocinadores</a></li>
             <li class="nav-item"><a href="{{ route('site.imagens') }}">Galeria</a></li>

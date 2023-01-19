@@ -186,6 +186,101 @@
 														</div>
 													</div>
 												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/aco-max.webp" alt="img" style="width: 200px; height: 70px">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5599982167000" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/aco.max.carolinama/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/11.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://www.facebook.com/pousadabelosono" target="_blank"><i class="fa fa-facebook"></i></a></li>
+																<li><a href="https://wa.me/5599991911017" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/pousadabelosono/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/12.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5599982167000" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/hosteldacris/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/13.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://api.whatsapp.com/send?phone=5599988273573" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+																<li><a href="https://www.instagram.com/hotelburiti_carolina_ma/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/14.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://wa.me/5599984067777" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/15.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+																<li><a href="https://wa.me/5599985152282" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6">
+													<div class="mu-single-team">
+														<div class="mu-single-team-img">
+															<img src="assets/images/patrocinadores/16.webp" alt="img">
+														</div>
+														<div align="center" class="mu-single-team-content">
+															<ul class="mu-team-social">
+															</ul>
+														</div>
+													</div>
+												</div>
 												
 
 

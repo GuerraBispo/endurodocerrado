@@ -52,6 +52,27 @@
 								 <div class="mu-clients-single">
 									<img src="{{ asset('assets/images/patrocinadores/10.webp')}}" alt="Brand Logo">
 								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/11.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/12.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/13.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/14.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/15.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/16.webp')}}" alt="Brand Logo">
+								</div>
+								 <div class="mu-clients-single">
+									<img src="{{ asset('assets/images/patrocinadores/aco-max.webp')}}" alt="Brand Logo" style="width: 200px; height: 100px">
+								</div>
 							</div>
 						</div>
 					</div>
